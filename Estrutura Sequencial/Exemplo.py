@@ -39,6 +39,8 @@ a = 7
 b = 2
 resultado = a % b
 resultado0 = a / b
+resultado1 = a // b
 print(f"O resto da divisão de a com b é: {resultado}")
 print(f"O resultado da divisão de a com b é: {resultado0}")
-print(f"A divisão inteira entre a e b é: {resultado0}")
+print(f"A divisão inteira entre a e b é: {resultado1}")
+

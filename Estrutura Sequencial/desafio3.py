@@ -1,18 +1,17 @@
-preco = 2100.5
-preco1 = 1830.0
+idade = input('Digite a sua idade: ')
+sexo = input('Digite um sexo (M/F): ')
 
-produto = "computador"
-produto1 = "TV"
+produto = input('Digite o nome do produto: ')
+codigo = input('Digite o código do produto: ')
+preco = float(input("Digite o valor do produto: ")) 
 
-codigo = 5291
-
-idade = 30
-
-genero = "F"
+produto1 = input('Digite o nome do produto: ')
+codigo1 = input('Digite o código do produto: ')
+preco1 = float(input("Digite o valor do produto: "))
 
 print("Produtos: ")
-print(f"O produto {produto} custa R$ {preco:.2f}")
-print(f"O produto {produto1} custa R$ {preco1:.2f}")
+print(f"Idade do cliente = {idade} anos")
+print(f"Sexo do cliente = {sexo} ")
 print()
-print(f"Código do produto = {codigo}")
-print(f"Dados das pessoa: gênero {genero} e idade {idade}")
+print(f"O produto {produto}, de código {codigo}, custa R$ {preco:.2f}")
+print(f"O produto {produto1}, de código {preco1}, custa R$ {preco1:.2f}")

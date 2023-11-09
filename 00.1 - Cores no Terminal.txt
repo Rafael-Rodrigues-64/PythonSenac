@@ -1,0 +1,49 @@
+
+- https://youtu.be/0hBIhkcA8O8?si=Vs71yJXqaW8ixmEs
+- Curso em Vídeo
+
+RED   = "\033[1;31m"  
+BLUE  = "\033[1;34m"
+CYAN  = "\033[1;36m"
+GREEN = "\033[0;32m"
+RESET = "\033[0;0m"
+BOLD    = "\033[;1m"
+REVERSE = "\033[;7m"
+-----------------
+Exemplo curso COD3R:
+Cor Vermelha (RED): "\033[91m"
+Cor amarela (YELLOW): "\033[93m"
+Volta ao NORMAL = "\033[;0m"
+----------------------------------
+\033[0m = limpa (reset) todos os atributos
+-----------------------------------------
+# Fazendo à mão:
+- Ex: \033[código do estilo(style); código do texto(text); código do background(back)m
+- \033[(style);(text);(back)m
+- Obs.: pode ficar em qualquer ordem os (style), (text), (back)
+
+# Códigos (Stilos) que vão funcionar melhor com Python são: 0, 1, 4, 7
+- 0 = significa sem estilo(none);
+- 1 = texto em negrito (Bold)
+- 4 = sublinhado (underline)
+- 7 = Inverte cor da letra com o fundo(Negative)
+
+# Códigos (textos) são: 30, 31, 32, 33, 34, 35, 36, 37
+- 30 = (Branco)
+- 31 = (Vermelho)
+- 32 = (Verde)
+- 33 = (Amarelo)
+- 34 = (Azul)
+- 35 = (Magenta)Roxo
+- 36 = (Ciano) Azul claro
+- 37 = (Cinza)
+
+# Códigos (Back) são: 40, 41, 42, 43, 44, 45, 46, 47
+- 40 = (Branco)
+- 41 = (Vermelho)
+- 42 = (Verde)
+- 43 = (Amarelo)
+- 44 = (Azul)
+- 45 = (Magenta)Roxo
+- 46 = (Ciano) Azul claro
+- 47 = (Cinza)

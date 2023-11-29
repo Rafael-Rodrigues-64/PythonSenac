@@ -15,9 +15,6 @@ for i in range(quntidadeNumeros):
 print("Valores normal")
 for i in range(quntidadeNumeros):
     print(lista[i])
-            
-print("Valores invertidos")    
-for i in range(10):        
-    if lista[i] % 2 != 0:
-        print(f'Números Ímpar: {i}')
+
+print(lista.reverse)
         

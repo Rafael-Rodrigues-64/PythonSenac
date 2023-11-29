@@ -9,13 +9,14 @@ print('\nDigite 10 números.')
 for i in range(10):
     numerosDigitados = float(input(f'Digite o {i + 1}º número: '))
     lista.append(numerosDigitados)
-  
+    
+print()  
 for i in range(10):
     if lista[i] % 2 == 0:
-        print(f'Números Par: {i}')
+        print(f'Número Par: {lista[i]}')
             
-    
+print()
 for i in range(10):        
     if lista[i] % 2 != 0:
-        print(f'Números Ímpar: {i}')
+        print(f'Número Ímpar: {lista[i]}')
         

@@ -16,5 +16,7 @@ print("Valores normal")
 for i in range(quntidadeNumeros):
     print(lista[i])
 
-print(lista.reverse)
-        
+lista.reverse()     
+print("Valores Reversos")
+for i in range(quntidadeNumeros):
+    print(lista[i])

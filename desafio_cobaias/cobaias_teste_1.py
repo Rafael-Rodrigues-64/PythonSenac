@@ -14,7 +14,6 @@ for i in range(quantTeste):
 
     elif tipoCobaias == 'S':
         S += quantCobaias
-
     else:
         print('Tipo Errado!')
 

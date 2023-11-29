@@ -1,3 +1,5 @@
+import math
+math.sqrt()
 cont = 0
 populacaoA = int(input('População A: '))
 taxaA = float(input('Taxa de crescimento A: '))

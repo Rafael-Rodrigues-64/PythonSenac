@@ -27,8 +27,12 @@ print(
     f'\nQuantidade de números Pares: {contPar}\nQuantidade de números Ímpares: {contImpar}\n')
 
 # Imprimir Pares e Ímpares
-for i in range(10):
+print('*'*40)
+print(f'{"LISTAGEM DE PARES E ÍMPARES":^40}')
+print('*'*40)
+for i in range(12):
     if vetor[i] % 2 == 0:
-        print(f'Número Par: {vetor[i]}')
+        print(f'Número Par:{vetor[i]}')
     else:
-        print(f'Número Ímpar: {vetor[i]}')
+        print(f'{"-"*20}# Número Ímpar: {vetor[i]}')
+print('*'*40)

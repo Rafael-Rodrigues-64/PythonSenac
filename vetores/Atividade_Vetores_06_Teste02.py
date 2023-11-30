@@ -11,9 +11,10 @@ quntidadeNumeros = int(input('Quantos números serão digitados? '))
 for i in range(quntidadeNumeros):
     numerosDigitados = float(input(f'Digite o {i + 1}º número: '))
     lista.append(numerosDigitados)
-
+  
 print("\nNormal: ")
 print(lista)
 
+lista.reverse()     
 print("\nInvertido: ")
-print(lista[::-1])
+print(lista)

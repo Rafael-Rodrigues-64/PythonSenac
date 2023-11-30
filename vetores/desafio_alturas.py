@@ -2,7 +2,6 @@ pessoas = {'nome': [], 'idade': [], 'altura': []}
 somaAlturas, cont, porcentIdade = 0, 0, 0
 
 numPessoas = int(input('Quantas pessoas serão digitadas? '))
-
 for i in range(numPessoas):
     print(f'Dados da {i + 1}a pessoa:')
 
@@ -15,7 +14,7 @@ for i in range(numPessoas):
     altura = float(input('Altura: '))
     pessoas['altura'].append(altura)
 
-    somaAlturas = altura  # pessoas['altura'][i]
+    somaAlturas += altura  # pessoas['altura'][i]
     if pessoas['idade'][i] < 16:
         cont += 1
 

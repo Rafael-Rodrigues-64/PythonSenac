@@ -19,4 +19,8 @@ print()
 for i in range(10):        
     if lista[i] % 2 != 0:
         print(f'Número Ímpar: {lista[i]}')
+<<<<<<< HEAD
         
+=======
+        
+>>>>>>> b143cbf322debe9e4824f7532037a34e64cef9cf

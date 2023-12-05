@@ -16,7 +16,7 @@ for i in range(maximoNumeros):
 maior, menor = lista[0], lista[0]
 
 for i in range(1, maximoNumeros):
-    
+
     if lista[i] > maior:
         maior = lista[i]
         posicaoMaior = i

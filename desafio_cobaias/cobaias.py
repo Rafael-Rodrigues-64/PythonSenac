@@ -5,7 +5,7 @@ quantTeste = int(input('Quantos casos de teste serão digitados?\33[36m '))
 
 for i in range(quantTeste):
     quantCobaias = int(input('\33[0mQuantidade de cobaias:\33[36m '))
-    tipoCobaias = input('\33[0mTipo de cobaia:\33[33m ')
+    tipoCobaias = input('\33[0mTipo de cobaia:\33[33m ').upper()
 
     cobaias[tipoCobaias] += quantCobaias
     totalCobaias += quantCobaias

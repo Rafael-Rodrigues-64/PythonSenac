@@ -3,8 +3,7 @@
      não números repetidos nesse vetor.
 '''
 # Seção de Declarações das variáveis
-lista0 = []
-lista1 = []
+lista0, lista1 = [], []
 cont1 = 0
 
 # print('\nDigite 20 números.')

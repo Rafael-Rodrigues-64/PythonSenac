@@ -10,7 +10,7 @@ for i in range(numPessoas):
 
         if (chave == 'Idade') and (pessoas[chave][i + 1] < 16):
             cont += 1
-
+pessoas
 somaAlturas = sum(pessoas['Altura'][1:])/numPessoas
 porcentIdade = cont/numPessoas
 print(f'{"*"*35}')

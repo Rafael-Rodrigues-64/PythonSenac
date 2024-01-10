@@ -1,43 +1,13 @@
-código, alturaMaior, alturaMenor, pesoMaior, pesoMenor = 0, 0, 0, 0, 0
-somaAltura, somaPeso, cont = 0, 0, 0
-codMaiorAltura, codMenorAltura, codMaiorPeso, codMenorPeso = 0, 0, 0, 0
+academia = {'a altura': [[]], 'o peso': [[]]}
 
 while True:
-    código = int(input('Digite o código do cliente (ou 0 para sair): '))
-    if (código == 0):
+    codigo = abs(int(input('Digite o código do cliente (ou 0 para sair): ')))
+    if (codigo == 0):
         break
-    elif (código < 0):
-        continue
-    altura = float(input('Digite a altura do cliente (em metros): '))
-    peso = float(input('Digite o peso (em quilogramas): '))
 
-    if altura > alturaMaior:
-        alturaMaior = altura
-        codMaiorAltura = código
-
-    if altura < alturaMenor:
-        alturaMenor = altura
-        codMenorAltura = código
-
-    elif (alturaMenor == 0) and (altura > alturaMenor):
-        alturaMenor = altura
-        codMenorAltura = código
-
-    if peso > pesoMaior:
-        pesoMaior = peso
-        codMaiorPeso = código
-
-    if peso < pesoMenor:
-        pesoMenor = peso
-        codMenorPeso = código
-
-    elif (pesoMenor == 0) and (peso > pesoMenor):
-        pesoMenor = peso
-        codMenorPeso = código
-
-    cont += 1
-    somaAltura += altura
-    somaPeso += peso
+    for chave in academia.keys():
+        academia[chave].insert(abs(
+            float(input(f'Digite {academia[chave]} do cliente: '))))
 
 if (cont != 0) or (alturaMenor != 0) or (pesoMenor != 0):
     print(

@@ -3,11 +3,7 @@ lista1 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 lista2 = []
 
 for i in range(10):
-    if i % 2 == 0:
         lista2.append(lista0[i])
         lista2.append(lista1[i])
-    else:
-        lista2.append(lista0[i])
-        lista2.append(lista1[i])
-
+        
 print(lista2)

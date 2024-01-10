@@ -7,13 +7,11 @@ lista0, lista1 = [], []
 cont1 = 0
 
 # print('\nDigite 20 números.')
-quntidadeNumeros = int(input('Quantos números serão digitados? '))
-for i in range(quntidadeNumeros):
-    numerosDigitados = float(input(f'Digite o {i + 1}º número: '))
-    lista0.append(numerosDigitados)
+for i in range(int(input('Quantos números serão digitados? '))):
+    lista0.append(float(input(f'Digite o {i + 1}º número: ')))
 
-for i in range(quntidadeNumeros - 1):
-    for j in range(i + 1, quntidadeNumeros):
+for i in range((len(lista0)) - 1):
+    for j in range(i + 1, (len(lista0))):
         if lista0[i] == lista0[j]:
 
             if lista0[j] not in lista1:
@@ -25,7 +23,7 @@ if len(lista1) == 0:
 elif len(lista1) > 0:
 
     for i in range(len(lista1)):
-        for j in range(quntidadeNumeros):
+        for j in range((len(lista0))):
             if (lista1[i] == lista0[j]):
                 print(f'O número: {lista1[i]}; se repete no índice ({j})')
 

@@ -1,14 +1,13 @@
-mercadorias = {'Nome mercadoria': [str], 'Preço de compra': [
+mercadorias = {'Nome produto': [str], 'Preço de compra': [
     float], 'Preço de venda': [float]}
 cont10, cont10_20, cont20 = 0, 0, 0
 
 numMercadorias = int(
     input(f'{"-"*39}\nQuantas mercadorias serão registradas? '))
 for i in range(numMercadorias):
-    print(f'{"*"*39}\nDados da {i + 1}ª mercadoria:')
+    print(f'{"*"*39}\nDados do {i + 1}ª Produto:')
     for chave in mercadorias.keys():
-        valor = mercadorias[chave][0](input(f'{chave}: '))
-        mercadorias[chave].append(valor)
+        mercadorias[chave].append(mercadorias[chave][0](input(f'{chave}: ')))
 
         if (chave == 'Preço de venda'):
             lucro = mercadorias['Preço de venda'][i + 1] / \

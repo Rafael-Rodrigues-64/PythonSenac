@@ -14,7 +14,7 @@ for i in range(quntidadeNumeros):
 
 print("\nNormal: ")
 print(lista)
-#print(lista[::-1])
+
 print("\nInvertido: ")
 Slista = lista[::-1]
 print(lista)

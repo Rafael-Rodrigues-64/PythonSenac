@@ -9,6 +9,6 @@ while (idades > 0 ):
     if idades < 0:
         print("IMPOSSÍVEL CALCULAR com o número: ",idades )    
         break
-else:
-    media = soma/contador
-    print("A média das Idades é ",idades)  
+
+media = soma/contador
+print("A média das Idades é ",idades)  

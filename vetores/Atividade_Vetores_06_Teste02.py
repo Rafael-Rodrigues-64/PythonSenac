@@ -7,14 +7,12 @@
 # Seção de Declarações das variáveis
 lista = []
 
-quntidadeNumeros = int(input('Quantos números serão digitados? '))
-for i in range(quntidadeNumeros):
-    numerosDigitados = float(input(f'Digite o {i + 1}º número: '))
-    lista.append(numerosDigitados)
-  
+for i in range(int(input('Quantos números serão digitados? '))):
+    lista.append(float(input(f'Digite o {i + 1}º número: ')))
+
 print("\nNormal: ")
 print(lista)
 
-lista.reverse()     
+lista.reverse()
 print("\nInvertido: ")
 print(lista)

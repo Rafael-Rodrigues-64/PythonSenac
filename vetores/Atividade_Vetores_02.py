@@ -8,11 +8,9 @@ vetor = []
 
 print('\nArmazene Dez números:')
 for i in range(10):
-    numerosDigitados = float(input(f'Digite o {i + 1}º número: '))
-    vetor.append(numerosDigitados/2)
+    vetor.append((float(input(f'Digite o {i + 1}º número: ')))/2)
 
 # Imprimir os números pela metade
 print('\nValores armazenados: ')
 for i in range(10):
     print(f'Posição ({i}) -> {vetor[i]}')
-    

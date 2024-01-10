@@ -4,23 +4,11 @@ lista2 = []
 lista3 = []
 
 for i in range(10):
-    if i % 2 == 0:
-        lista2.append(lista0[i])
-        lista2.append(lista1[i])
-    else:
-        lista2.append(lista0[i])
-        lista2.append(lista1[i])
+    lista2.append(lista0[i])
+    lista2.append(lista1[i])
 
 print(lista2)
 
 for i in range(10):
-    if i % 2 == 0:
-        lista3.append(lista0[i])
-        lista3.append(lista1[i])
-        lista3.append(lista2[i])
-    else:
-        lista3.append(lista0[i])
-        lista3.append(lista1[i])
-        lista3.append(lista2[i])
-
+    lista3
 print(lista3)

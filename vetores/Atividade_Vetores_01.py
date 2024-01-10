@@ -5,7 +5,8 @@ a) O maior elemento do vetor e em que posição esse elemento se encontra;
 b) O menor elemento do vetor e em que posição esse elemento se encontra.
 '''
 # Seção de Declarações das variáveis
-lista = []; maior, menor, posicaoMaior, posicaoMenor = 0, 0, 0, 0
+lista = []
+maior, menor, posicaoMaior, posicaoMenor = 0, 0, 0, 0
 
 maximoNumeros = int(input('Quantos números serão digitados? '))
 for i in range(maximoNumeros):

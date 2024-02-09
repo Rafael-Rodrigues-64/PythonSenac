@@ -1,0 +1,10 @@
+#titulo {
+    text-align: center;
+    margin-left: -600px;
+}
+#lista_ul_1{
+    list-style-type: square;
+}
+.direita{
+    float: left;
+}

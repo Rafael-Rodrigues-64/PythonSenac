@@ -54,20 +54,22 @@ footer {
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.664);
     background-color: #000;
-    color: #fff;
+    color: #fff;  
+}
+
+.cards p {
+    color: #666;
+}
+
+.card:hover p {
+    color: #ccc;
 }
 
 .card img {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 10px;
-}
-
-
-
-.cards p {
-    color: #666;
 }

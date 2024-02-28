@@ -3,16 +3,17 @@
 }
 
 body {
-    background-image: url('paisagem-natural.jpg');
+    background-image: url('leaves_plant_drops_black_4k_hd_black-1080x1920.jpg');
     background-size: cover; /* Cubrir toda a tela. Di minuir ou aumentar dependewndo do tamanho da tela */
     background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     font-weight: bold;
-    
 }
 
 .botao {
+    display: block;
     color: aliceblue;
     font-weight: bold;
     background-color: black;
@@ -21,7 +22,7 @@ body {
 
 .botao:hover {
     color: #000;
-    background-color: #CCC;
+    background-color: #383838;
     cursor: pointer;
 }
 
@@ -30,14 +31,14 @@ label {
     margin-bottom: 20px;
 }
 
-input {
-    padding: 10px;
+input { 
     width: 300px;
+    margin-top: 5px;
+    padding: 10px;
     font-size: 15px;
     border: 1px solid #CCC;
     border-radius: 5px;
     outline: 0; /* Remove a borda quando é selecionado */
-    margin-top: 5px;
 }
 
 form {

@@ -16,5 +16,4 @@ for chave, valor in cobaias.items():
 =======
 >>>>>>> Stashed changes
     print(
-        f'Percentual de \33[33m{chave}\33[0m: {percentCobaias}')
         f'Percentual de \33[33m{chave}\33[0m: {percentCobaias.replace(".", ",")}')

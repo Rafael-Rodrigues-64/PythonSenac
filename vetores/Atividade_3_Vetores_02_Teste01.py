@@ -8,7 +8,11 @@ pessoas = {'M': [], 'F': []}
 numPessoas = abs(int(input(f'{"-"*35}\nQuantas pessoas serão registradas? ')))
 for i in range(numPessoas):
     genero = input(
+<<<<<<< Updated upstream
         f'{"*"*35}\nDigite o gênero da {i + 1} pessoa (M/F): ').upper()
+=======
+        f'{"*"*35}\nDigite o gênero da {i + 1} pessoa (M/F): ').strip().upper()[0]
+>>>>>>> Stashed changes
     pessoas[genero].append(abs(float(input('Digite a Altura: '))))
 
 alturas = pessoas['F'] + pessoas['M']

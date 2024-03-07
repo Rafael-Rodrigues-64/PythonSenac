@@ -21,14 +21,26 @@ for i in range(12):
         vetor[2] += 1
 
 print(f'\nQuantidades de Pares: {vetor[1]}\nQuantidades de Ímpares: {vetor[2]}\n')
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 # Imprimir Pares e Ímpares
 print('*'*40)
 print(f'{"LISTAGEM DE PARES E ÍMPARES":^40}')
 print('*'*40)
+<<<<<<< Updated upstream
 for i in range(12):
     if vetor[0][i] % 2 == 0:
         print(f'Número Par:{vetor[0][i]}')
     else:
         print(f'{"-"*20}# Número Ímpar: {vetor[0][i]}')
 print('*'*40)
+=======
+print(f'{"PARES--------ÍMPARES":-^40}\n')
+for i in vetor[0]:
+    if i % 2 == 0:
+        print(f'{i:>10} #\n', end='')
+    else:
+        print(f'{i:>30} #')
+>>>>>>> Stashed changes

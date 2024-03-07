@@ -11,6 +11,10 @@ print(f'\33[0mTotal: \33[34m{sum(cobaias.values())}\33[0m cobaias\n')
 for chave, valor in cobaias.items():
     print(f'Total de \33[33m{chave}\33[0m: \33[34m{valor}\33[0m')
     percentCobaias = f'{(valor/sum(cobaias.values())):.2%}'
+<<<<<<< Updated upstream
     percentCobaias = percentCobaias.replace('.', ',')
+=======
+>>>>>>> Stashed changes
     print(
         f'Percentual de \33[33m{chave}\33[0m: {percentCobaias}')
+        f'Percentual de \33[33m{chave}\33[0m: {percentCobaias.replace(".", ",")}')

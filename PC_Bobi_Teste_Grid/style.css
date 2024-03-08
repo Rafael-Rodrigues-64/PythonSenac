@@ -1,15 +1,14 @@
 .container {
     background-color: #CCC;
     display: grid;
-    grid-template-columns:  repeat(3, 200px);
-    grid-auto-rows: 1 00px;
-    gap: 10px
-    
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 10px;    
 }
  
 .item {
-    background-color: #00f;
+    background-color: blue;
     border-radius: 10px;
     padding: 20px;
     color: #fff;
-} 
+    font-size: 20px;
+}

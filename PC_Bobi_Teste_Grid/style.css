@@ -1,14 +1,25 @@
-.container {
+body {
+    margin: 0px 20px;
+}
+
+.section-body {
     background-color: #CCC;
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
-    gap: 10px;    
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 20px;
 }
- 
+
 .item {
     background-color: blue;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 25px;
+    min-height: 155px;
     color: #fff;
     font-size: 20px;
 }
+
+/* 
+@media (max-width: 901px) {
+    .section-body {
+        grid-template-columns: 1fr;
+    }
+}*/

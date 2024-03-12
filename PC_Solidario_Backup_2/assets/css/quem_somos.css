@@ -6,7 +6,6 @@
 
 
 body {
-    background-color: #f6f5f7;
     font-family: Arial, sans-serif; 
     font-size: 18px;
     color: #54595f;
@@ -23,35 +22,77 @@ body {
     margin-top: 50px;
     width: 1200px;
     display: flex;
-    background-color: aquamarine;
     flex-direction: column;
-
     }
 
 .titulo{
-    background-color: brown;
     display: flex;
-
-
-    
+    margin-bottom: 60px;  
 }
-.titulo img{
-    width: 150px;
-}
-.subtitulo{
-    background-color: chartreuse;
 
+.titulo .titulo-prs {
+    flex: 2;
 }
-h1 {
+
+.titulo h1 {
     color: #ff7b00;
     font-weight: bold;
     font-size: 60px;
-    padding: 10px;
-    
-  
+    margin-bottom: 30px;
 }
 
+.titulo .titulo-prs .pr {
+    padding: 9px 0px;
+    margin-right: 40px;
+    line-height: 25px;
+}
 
+.titulo .imagem-desc {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
 
+.titulo img{
+    width: 150px;
+}
 
+.subtitulo{
+    display: flex;
+    
+}
 
+/*:not(:last-child)*/
+
+.subtitulo .p1 {
+    flex: 1;
+}
+
+.subtitulo .p1:not(:last-child) {
+    padding-right: 25px;
+}
+
+.subtitulo .linha {
+    display: flex;
+    border-top: #333;
+    padding: 15px 0px;
+}
+
+.subtitulo .p1 .linha span {
+    width: 100%;
+    border-top: 10px solid #333;
+}
+
+.subtitulo .p1 h2 {
+    padding-bottom: 20px;
+}
+
+.subtitulo .p1 p {
+    line-height: 25px;
+}
+
+.subtitulo .p1.p3 p:not(:last-child) {
+    padding-bottom: 20px;
+}

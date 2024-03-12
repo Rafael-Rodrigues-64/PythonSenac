@@ -14,9 +14,6 @@ body {
 .principal{
    display: flex;
    justify-content: center;
-   background-color: aqua;
-  
-    
 }
 .titulosub{
     margin-top: 50px;

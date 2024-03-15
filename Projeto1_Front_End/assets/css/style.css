@@ -149,7 +149,6 @@ aside {
     max-width: 275px;
     width: 275px;
     margin: 40px 20px 20px;
-    background-color: #333;
 }
 
 .widget {    
@@ -212,7 +211,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 120px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 footer .rodape {
@@ -231,8 +230,6 @@ footer .icons img {
     width: 20px;
     margin-left: 15px;
 }
-
-
 
 /*
     main {

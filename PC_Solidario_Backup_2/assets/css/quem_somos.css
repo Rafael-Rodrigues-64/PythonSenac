@@ -82,7 +82,6 @@ body {
     
 }
 
-/*:not(:last-child)*/
 
 .subtitulo .p1 {
     flex: 1;
@@ -130,4 +129,8 @@ body {
 
 .subtitulo .p1.p3 p:not(:last-child) {
     padding-bottom: 20px;
+}
+
+.subtitulo .p1.p3 p span {
+    font-weight: bold;
 }

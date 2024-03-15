@@ -7,24 +7,23 @@
 body {
     font-family: Arial, sans-serif; 
     font-size: 18px;
-    color: #54595f;  
+    color: #54595f;
+      
 }
-
-.principal {
+.principal{
    display: flex;
    justify-content: center;
 }
-
-.titulosub {
+.titulosub{
     margin-top: 50px;
     width: 1200px;
     display: flex;
     flex-direction: column;
-}
+    }
 
-.titulo {
+.titulo{
     display: flex;
-    margin-bottom: 60px;     
+    margin-bottom: 60px;  
 }
 
 .titulo .titulo-prs {
@@ -80,7 +79,10 @@ body {
 
 .subtitulo{
     display: flex;
+    
 }
+
+/*:not(:last-child)*/
 
 .subtitulo .p1 {
     flex: 1;
@@ -98,7 +100,6 @@ body {
 .subtitulo .p1 .linha span {
     width: 100%;
 }
-
 .subtitulo .p1.p0 .linha span {
     border-top: 10px solid #1C5599;
 }
@@ -113,7 +114,6 @@ body {
     padding-bottom: 20px;
     font-weight: bold;
 }
-
 .subtitulo .p1.p0 h2 {
     color: #1C5599;
 }

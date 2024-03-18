@@ -19,7 +19,7 @@ body {
     margin: 80px auto 0;
     width: 80%;
     text-align: center;
-    color: white;   
+    color: white;
 }
 
 .hero-content h1 {
@@ -223,7 +223,7 @@ footer .rodape {
 
 footer .icons {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
 footer .icons img {

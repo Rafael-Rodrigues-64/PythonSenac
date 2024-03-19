@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="assets/javascript/slide.js" defer></script>
     <title>Projeto1.1</title>
 </head>
 <body>
@@ -32,25 +33,173 @@
         </div>
     </header>
     <main>
-       <section class="banner">
+       <section class="banner" id="banner">
             <div class="sliders">
-                <div class="slide">
-                    <div class="slide-area">
+                <div class="slide primeiro">
+                    <div class="slide-area" >
                         <h1>Cursos Senac<br><span>Front End</span></h1>
-                        <a href="#">Contatar</a>
+                        <a href="#" class="button">Contatar</a>
+                    </div>
+                </div><div class="slide">
+                    <div class="slide-area">
+                        <h1>Cursos Senac<br><span>Back End</span></h1>
+                        <a href="#" class="button">Contatar</a>
+                    </div>
+                </div><div class="slide">
+                    <div class="slide-area">
+                        <h1>Cursos Senac<br><span>Full Stack</span></h1>
+                        <a href="#" class="button">Contatar</a>
+                    </div>
+                </div>                
+            </div>
+            <div class="slide-pointers">
+                <div class="pointer active" id="pointer1" ></div>
+                <div class="pointer " id="pointer2"></div>
+                <div class="pointer " id="pointer3"></div>
+            </div>
+       </section>
+
+       <section class="default light">
+            <div class="section-title">Sobre Nós</div>
+            <div class="section-desc">Quem somos?</div>
+            <div class="section-body">
+                <div class="section-sobreNos">
+                    <div class="section-sobreNos--left">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec volutpat magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tempor vitae lacus vitae aliquet. Sed efficitur elit eu orci tempor luctus. Maecenas quis tristique tellus. Pellentesque gravida, est posuere tincidunt scelerisque, nunc nisi scelerisque nisl, sed molestie tellus tellus quis ex. Praesent fermentum convallis aliquet.</p> <br>
+                        <a href="#" class="button">Saiba mais</a>
+                    </div>
+                    <div class="section-sobreNos--right">
+                        <img src="media/foto9.jpg" alt="">
                     </div>
                 </div>
-                <div class="slide">
-                    ...2
+            </div>
+       </section>
+
+       <section class="default dark">
+        <div class="section-title">Serviços</div>
+        <div class="section-desc">Nossos Serviços</div>
+        <div class="section-body">
+            <div class="section-servicos">
+                <div class="section-servico">
+                    <img src="assets/images/medalha.png" alt="">
+                    <h4>Cursos de Alta Qualidade</h4>
+                    <p>Etiam tempor vitae</p>
                 </div>
-                <div class="slide">
-                    ...3
+                <div class="section-servico">
+                    <img src="assets/images/estrela.png"">
+                    <h4>Satisfação cinco Estrelas</h4>
+                    <p>Integer nec volutpat magna. Class aptent</p>
+                </div>
+                <div class="section-servico">
+                    <img src="assets/images/relogio.png" alt="">
+                    <h4>Atualizações Regulares</h4>
+                    <p>Etiam tempor vitae</p>
+                </div>
+                <div class="section-servico">
+                    <img src="assets/images/balao.png"">
+                    <h4>Suporte Rápido e Gratuito</h4>
+                    <p>Integer nec volutpat magna. Class</p>
                 </div>
             </div>
-       </section>     
+        </div>
+   </section>
+
+   <section class="default light">
+    <div class="section-title">Nossos Cursos</div>
+    <div class="section-desc">O que Criamos</div>
+    <div class="section-body">
+        <div class="section-cursos">
+            <div class="section-cursos--filtros">
+                <ul>
+                    <li class="active">Todos</li>
+                    <li>Mais avaliados</li>
+                    <li>Front End</li>
+                    <li>Back End</li>
+                    <li>Full Stack</li>
+                    <li>Diversos</li>
+                </ul>
+            </div>
+            <div class="section-cursos--fotos">
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="section-cursos--foto">
+                    <div class="section-cursos--fotoArea">
+                        <div class="section-cursos--fotoInfo"></div>
+                        <a href=""><img src="media/composicao-com-sistema-html-para-sites (1).jpg" alt=""></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
     </main>
     <footer>
-
+        
     </footer>
 </body>
 </html>

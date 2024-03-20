@@ -80,7 +80,7 @@ header {
     overflow: hidden; /* Tudo que pasar será ignorado */
 }
 .banner .sliders {
-    width: 400vw; /* Suporta até 5 slider */
+    width: 500vw; /* Suporta até 5 slider */
     height: 100%;
 }
 .banner .slide {

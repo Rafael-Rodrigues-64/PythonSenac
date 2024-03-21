@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url('../images/banner-1050614_1280.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: auto;
+    height: 130px;
+}
+.container {
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+}
+.header--area {
+    display: flex;
+    align-items: center;
+}
+.header-left {
+    max-width: 140px;
+}
+.header-left a img{
+    width: 100%
+}
+
+.header-center-hight {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 100%;
+}
+
+.header-center-hight .header-center {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: auto;
+}
+.header-center-hight .header-center a {
+    display: block;
+    background-color: #999;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px 11px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.header-center-hight .header-hight {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    color: #fff;
+}
+.header-search form {
+    display: flex;
+}
+.header-search input {
+    font-size: 16px;
+    padding: 10px 13px;
+    border: 1px solid #999;
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+}
+.header-search button {
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header-search button img {
+    width: 16px;
+    height: 16px;
+}
+/*
+    body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-image: url(../Codigosdositeemandamento-PI/imagens/Imagens/banner-1050614_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    width: 100px;
+    background-color: black;
+    height: 100px;
+}
+.pesquisar-menu {
+    display: flex;
+    flex-direction: column;
+}
+.Pesquisar {
+    flex: 1;
+}
+.menu {
+flex: 1;
+}
+*/

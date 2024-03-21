@@ -148,13 +148,14 @@ section.slider {
     margin-left: -50%;
 }
 
-
+.banner-main-defaults--sombra {
+    background-color: rgba(0, 0, 0, 0.2);
+}
 .banner-main-defaults {
-    background-image: url('../images/fundo-de-site.png');
+    background-image: url('../images/banner_body.png');
     background-size: cover; 
     background-attachment: fixed;
     background-position: center;
-    
 }
 
 /* Área Notícias (Sistema)...*/
@@ -187,7 +188,8 @@ section.slider {
 
 .default_2 { /* Área Impacto Social (Sistema)...*/
     background-color: rgba(0, 0, 0, 0.8);
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 .default_2 .section-title h2 {
